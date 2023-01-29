@@ -18,4 +18,5 @@
 
 To run the parser, you just need to go to the appropriate directory and run the ```main.py``` file.
 To launch the website, you need to go to the ```movie_site``` directory inside the ```website``` and run this command:
+
 ```manage.py runserver --insecure```
