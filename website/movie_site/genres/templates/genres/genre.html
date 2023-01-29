@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'genres/genre/css/style.css' %}">
+    <title>{{ genre_data.0.3 }}</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__title">IMDB</div>
+    </div>
+    <section class="movies">
+        <div class="movies__wrapper">
+            <div class="movies__wrapper__title">{{ genre_data.0.3 }}</div>
+            <div class="movies__wrapper__list">
+                {% for movie in genre_data %}
+                    <a href="/{{ movie.2 }}" class="movies__wrapper__list-item">
+                        <div class="movies__wrapper__list-item__image"><img src="{{ movie.1 }}" alt=""></div>
+                        <div class="movies__wrapper__list-item__info">
+                            <div class="movies__wrapper__list-item__info__title">{{ movie.2 }}. {{ movie.0 }}</div>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</body>
+</html>

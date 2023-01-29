@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'genres/genres_page/css/style.css' %}">
+    <title>Genres</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__title">IMDB</div>
+    </div>
+    <section class="genres">
+        <div class="genres__wrapper">
+            <div class="genres__wrapper__title">Genres</div>
+            <div class="genres__wrapper__list">
+                {% for genre in genres %}
+                    <a href="/genres/{{ genre.0 }}" class="genres__wrapper__list-item">
+                        <div class="genres__wrapper__list-item__title">{{ genre.1 }}</div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</body>
+</html>

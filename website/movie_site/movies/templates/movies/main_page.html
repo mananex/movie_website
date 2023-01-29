@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page (Movies)</title>
+    <link rel="stylesheet" href="{% static 'movies/main_page/css/styles.css' %}">
+</head>
+<body>
+    <header class="header">
+        <div class="header__title">IMDB</div>
+    </header>
+    <section class="movies">
+        <div class="movies__wrapper">
+            <div class="movies__wrapper__info">
+                <div class="movies__wrapper__info__title">IMDb Top 250 Movies</div>
+                <div class="movies__wrapper__info__text">IMDb Top 250 as rated by regular IMDb voters.</div>
+            </div>
+            <div class="movies__wrapper__divider"></div>
+            <div class="movies__wrapper__list">
+            {% for movie in movies %}
+                <a href="/{{ movie.0 }}" class="movies__wrapper__list-item">
+                    <div class="movies__wrapper__list-item__image"><img src="{{ movie.2 }}" alt=""></div>
+                    <div class="movies__wrapper__list-item__info">
+                        <div class="movies__wrapper__list-item__info__title">{{ movie.0 }}. {{ movie.1 }} ({{ movie.5 }})</div>
+                    </div>
+                </a>
+            {% endfor -%}
+            </div>
+        </div>
+    </section>
+</body>
+</html>
