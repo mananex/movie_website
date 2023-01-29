@@ -1,0 +1,96 @@
+.header {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  border-radius: 12px 12px 7px 7px;
+}
+.header__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  color: rgb(219, 219, 219);
+}
+.movies {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.movies__wrapper {
+  width: 80%;
+  height: 100%;
+  background-color: rgba(187, 187, 187, 0.7);
+  border-radius: 15px;
+  box-shadow: 0 0 54px 7px rgb(88, 88, 88);
+}
+.movies__wrapper__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 29px;
+  text-align: center;
+  margin: 10px 0;
+}
+.movies__wrapper__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 23px;
+}
+.movies__wrapper__list-item {
+  width: 568px;
+  height: 128px;
+  display: flex;
+  margin-bottom: 25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.movies__wrapper__list-item:hover {
+  background-color: rgba(56, 56, 56, 0.3);
+  padding: 8px;
+  border-radius: 12px;
+}
+.movies__wrapper__list-item:active {
+  background-color: rgba(46, 46, 46, 0.5);
+}
+.movies__wrapper__list-item__image {
+  width: 92px;
+  height: 128px;
+}
+.movies__wrapper__list-item__image img {
+  width: 100%;
+  height: 100%;
+}
+.movies__wrapper__list-item__info {
+  width: calc(100% - 92px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 13px;
+}
+.movies__wrapper__list-item__info__title {
+  color: rgb(56, 56, 56);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-top: 37px;
+}
+.movies__wrapper__list-item__info__rating {
+  display: flex;
+  margin-top: 10px;
+}
+.movies__wrapper__list-item__info__rating__image {
+  width: 16px;
+  height: 16px;
+}
+.movies__wrapper__list-item__info__rating__image img {
+  width: 100%;
+  height: 100%;
+}
+.movies__wrapper__list-item__info__rating__number {
+  margin-left: 6px;
+  color: black;
+}
