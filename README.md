@@ -14,3 +14,6 @@
 
 **I created a project on Windows, so the commands will be for Windows.**
 
+```pip install psycopg2 psycopg2-binary requests bs4 django```
+
+To run the parser, you just need to run the ```main.py``` file.
