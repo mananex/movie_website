@@ -8,6 +8,8 @@
 
 ```bs4```      **(for parsing data from html markup)**
 
+**(you also need to install PostgreSQL)**
+
 **And for the website, I used the Django framework.**
 
 # Installation and run
