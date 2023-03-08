@@ -10,5 +10,5 @@ The parsing program is needed, oddly enough, to parse the films themselves from 
 
 The ```sql_commands.py``` file contains the main SQL queries to the server.
 
-Note: all SQL requests are made using the ```postgres_manager.py``` module, which is common for both the parser and the website.
+<b>Note:</b> all SQL requests are made using the ```postgres_manager.py``` module, which is common for both the parser and the website.
 
