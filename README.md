@@ -19,5 +19,11 @@ For the parser, I use the following tools:
 ```psycopg2``` ┋ For PostgreSQL.<br/>
 ```requests``` ┋ To send GET requests.<br/>
 ```beautifulsoup4``` ┋ For parsing data from html.<br/>
-```random_user_agent``` ┋ For random user agents to send GET requests.<br/>
+```random_user_agent``` ┋ For random user agents to send GET requests.
+
+### ―――――――――――
+
+To run the parser, you need to execute the ```python3 main.py``` command in the terminal. Nothing more is needed.
+
+<hr>
 
