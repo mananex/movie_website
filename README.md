@@ -7,3 +7,5 @@
 ### The parser program.
 
 The parsing program is needed, oddly enough, to parse the films themselves from IMDB.
+
+The ```sql_commands.py``` file contains the main SQL queries to the server.
