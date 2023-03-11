@@ -23,7 +23,12 @@ For the parser, I use the following tools:
 
 ### ―――――――――――
 
-To run the parser, you need to execute the ```python3 main.py``` command in the terminal. Nothing more is needed.
-
 <hr>
+
+### Steps to run the parser.
+#### Step 1. Installing important tools.
+
+You need to install Python on your computer first. I am using Python 3.7.9.
+
+
 
