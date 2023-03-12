@@ -47,6 +47,6 @@ After that, you need to run the ```main.py``` file to start parsing pages. Comma
 
 ### ―――――――――――
 
-
+As the parser works, the data will be written to the appropriate tables in the database. You can see which tables will be created in the ```parsing\sql_commands.py``` file in the ```create_basic_tables``` variable, which contains commands to the server to create basic tables.
 
 <hr>
