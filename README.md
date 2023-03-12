@@ -22,6 +22,8 @@ To set options, you need to open the ```postgres_manager.py``` file, and set the
 ```host``` - ip adress (you can set 127.0.0.1)<br/>
 ```port``` - server port (default is 5432)<br/>
 
+<b>Note:</b> all SQL requests are made using the ```postgres_manager.py``` module, which is common for both the parser and the website.
+
 ### ### ――――――――――― ### ###
 
 #### Step 3. Installing important modules.
@@ -39,8 +41,6 @@ The parsing program is needed, oddly enough, to parse the films themselves from 
 
 The ```sql_commands.py``` file contains the main SQL queries to the server.
 
-<b>Note:</b> all SQL requests are made using the ```postgres_manager.py``` module, which is common for both the parser and the website.
-
 ### ―――――――――――
 
 For the parser, I use the following tools:
@@ -51,8 +51,3 @@ For the parser, I use the following tools:
 ```random_user_agent``` ┋ For random user agents to send GET requests.
 
 ### ―――――――――――
-
-
-
-
-
