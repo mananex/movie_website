@@ -12,8 +12,7 @@ After that, you need to install pgAdmin to run the PostgreSQL server.
 
 #### Step 2. Setting options.
 
-You need to install Python on your computer first. I am using Python 3.7.9.<br/>
-After that, you need to install pgAdmin to run the PostgreSQL server.
+To set options, you need to open the ```postgres_manager.py``` file, and set the required options there in the appropriate variables.
 
 <hr>
 
