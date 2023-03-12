@@ -14,6 +14,12 @@ After that, you need to install pgAdmin to run the PostgreSQL server.
 
 To set options, you need to open the ```postgres_manager.py``` file, and set the required options there in the appropriate variables.
 
+```database_name``` - database name<br/>
+```database_user``` - postgresql user<br/>
+```auth_password``` - authentication password<br/>
+```host``` - ip adress (you can set 127.0.0.1)<br/>
+```port``` - server port (default is 5432)<br/>
+
 <hr>
 
 ### The parser program.
