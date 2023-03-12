@@ -50,3 +50,9 @@ After that, you need to run the ```main.py``` file to start parsing pages. Comma
 As the parser works, the data will be written to the appropriate tables in the database. You can see which tables will be created in the ```parsing\sql_commands.py``` file in the ```create_basic_tables``` variable, which contains commands to the server to create basic tables.
 
 <hr>
+
+### The website.
+
+To run a website, you must first start pgAdmin, start the server where the parsed data is located.<br/>
+After that, you need to go to the ```website/movie_site``` directory and run the ```manage.py``` program.<br/>
+The ```manage.py``` script is launched via the <b>terminal/command line</b> using the following command: ```python manage.py runserver --insecure```.
