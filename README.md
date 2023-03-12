@@ -10,8 +10,6 @@
 You need to install Python on your computer first. I am using Python 3.7.9.<br/>
 After that, you need to install pgAdmin to run the PostgreSQL server.
 
-### ### ――――――――――― ### ###
-
 #### Step 2. Setting options.
 
 To set options, you need to open the ```postgres_manager.py``` file, and set the required options there in the appropriate variables.
@@ -23,8 +21,6 @@ To set options, you need to open the ```postgres_manager.py``` file, and set the
 ```port``` - server port (default is 5432)<br/>
 
 <b>Note:</b> all SQL requests are made using the ```postgres_manager.py``` module, which is common for both the parser and the website.
-
-### ### ――――――――――― ### ###
 
 #### Step 3. Installing important modules.
 
