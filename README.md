@@ -55,6 +55,6 @@ As the parser works, the data will be written to the appropriate tables in the d
 
 To run a website, you must first start pgAdmin, start the server where the parsed data is located.<br/>
 After that, you need to go to the ```website/movie_site``` directory and run the ```manage.py``` program.<br/>
-Running the ```manage.py``` script must be done through the using the following command: ```python manage.py runserver --insecure```.
+Running the script must be done through the <b>terminal/command line</b> using the following command: ```python manage.py runserver --insecure```.
 
 <hr>
