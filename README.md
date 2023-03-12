@@ -4,6 +4,19 @@
 
 <hr>
 
+### General steps.
+#### Step 1. Installing important tools.
+
+You need to install Python on your computer first. I am using Python 3.7.9.<br/>
+After that, you need to install pgAdmin to run the PostgreSQL server.
+
+#### Step 2. Setting options.
+
+You need to install Python on your computer first. I am using Python 3.7.9.<br/>
+After that, you need to install pgAdmin to run the PostgreSQL server.
+
+<hr>
+
 ### The parser program.
 
 The parsing program is needed, oddly enough, to parse the films themselves from IMDB.
@@ -23,12 +36,7 @@ For the parser, I use the following tools:
 
 ### ―――――――――――
 
-<hr>
 
-### Steps to run the parser.
-#### Step 1. Installing important tools.
-
-You need to install Python on your computer first. I am using Python 3.7.9.
 
 
 
