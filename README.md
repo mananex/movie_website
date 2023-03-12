@@ -37,17 +37,16 @@ To install them, enter the command ```pip install -r requirements.txt``` in the 
 
 ### The parser program.
 
-The parsing program is needed, oddly enough, to parse the films themselves from IMDB.
-
+The parsing program is needed, oddly enough, to parse the films themselves from IMDB.<br/>
 The ```sql_commands.py``` file contains the main SQL queries to the server.
 
 ### ―――――――――――
 
-For the parser, I use the following tools:
-
-```psycopg2``` ┋ For PostgreSQL.<br/>
-```requests``` ┋ To send GET requests.<br/>
-```beautifulsoup4``` ┋ For parsing data from html.<br/>
-```random_user_agent``` ┋ For random user agents to send GET requests.
+To start the parser, you first need to start pgAdmin, then start the server itself, with which the parser program will interact.
+After that, you need to run the ```main.py``` file to start parsing pages. Command: ```python main.py```.
 
 ### ―――――――――――
+
+
+
+<hr>
