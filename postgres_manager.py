@@ -7,11 +7,11 @@ import psycopg2
 
 # ------ postgresql important variables ------ #
 
-database_name = 'postgres'
-database_user = 'postgres'
-auth_password = '91#ABtt5'
-host = '127.0.0.1'
-port = 5433
+database_name = 'database_name'
+database_user = 'database_user'
+auth_password = 'auth_password'
+host = 'host_ip_adress'
+port = 5433 # port
 
 # ------ -------------------- ------ #
 
